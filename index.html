@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ランダム四字熟語</title>
+  </head>
+  <body>
+<header>
+  <h1>ランダム四字熟語</h1>
+  <button id="permissionBtn" class="btn hidden">
+    シェーク
+  </button>
+  <p id="status" class="status">Checking device compatibility...</p>
+</header>
+<main>
+  <div id="results"></div>
+</main>
+
+<template id="cardtemplate">
+  <div class="card">
+    <h2 class="jp"><ruby><rt>ほんまつてんとう</rt>本末転倒</ruby></h2>
+    <p class="en">Putting the cart before the horse, having one's priorities backwards</p>
+  </div>
+</template>
+    <script src="./script.js"></script>
+  </body>
+</html>
