@@ -3,11 +3,10 @@ const statusEl = document.getElementById('status');
 const permissionBtn = document.getElementById('permissionBtn');
 
 let prevOpt = 1;
-// const options = fetch("https://skelliebunnie.github.io/yojijukugo-shake/yojijukugo.json").then(r => r.json()).then(data => { return data });
 let options = getData();
 
 async function getData() {
-  const url = "https://skelliebunnie.github.io/yojijukugo-shake/yojijukugo.json";
+  const url = "./yojijukugo.json";
   
   try {
     const response = await fetch(url);
@@ -17,7 +16,8 @@ async function getData() {
     }
     
     options = await response.json().then(data => { return data });
-    updateResults(0);
+    
+    randomize();
 
   } catch(error) {
     console.error(error.message);
@@ -136,10 +136,16 @@ function initShake() {
 window.addEventListener('DOMContentLoaded', () => {
   if (!isMobile()) {
       statusEl.innerText = "パソコンがある。代わりにボタンを押してください。";
-      permissionBtn.innerText = "ランダム";
+      permissionBtn.innerText = "ゲット！";
       permissionBtn.classList.remove = 'hidden';
       permissionBtn.addEventListener('click', randomize);
     } else {
       initShake();
     }
+    
+    // COPYRIGHT
+  const copyElyear = document.querySelector("#currentYear");
+  const currentYear = new Date().getFullYear();
+  copyElyear.innerHTML = currentYear.toString();
+    
 });

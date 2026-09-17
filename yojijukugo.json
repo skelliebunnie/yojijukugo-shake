@@ -9,13 +9,13 @@
     "idiom": "奇想天外",
     "furigana": "きそうてんがい",
     "jp": "実際の世の中には存在しないような、普通では思いつかないほどの奇抜な考えや思うこと。",
-    "en": "bizarre, fantastic, incredible. Bizarre thoughts/ideas so unconventional they wouldn't normally occurr to anyone that have no basis in the real world."
+    "en": "Bizarre thoughts outside heaven and earth."
   },
   {
     "idiom": "本末転倒",
     "furigana": "ほんまつてんとう",
     "jp": "本当に大事なことと、どちらでもいい物事の<ruby>末端<rt>まったん</rt></ruby>のことをとり違えること。",
-    "en": "Putting the cart before the horse, having one's priorities backwards."
+    "en": "Putting the cart before the horse"
   },
   {
     "idiom": "切磋琢磨",
@@ -27,12 +27,42 @@
     "idiom": "有名無実",
     "furigana": "ゆうめいむじつ",
     "jp": "名前だけ有名で中身はともなっていない状態。",
-    "en": "(Famous) in name but not in truth/reality."
+    "en": "(Famous) in name but not in \reality."
   },
   {
-    "idiom": "",
-    "furigana": "",
-    "jp": "",
-    "en": ""
+    "idiom": "悪戦苦闘",
+    "furigana": "あくせんくとう",
+    "jp": "強い敵との戦いで<ruby>苦<rt>くる</rt></ruby>しんで<ruby>闘<rt>たたか</rt></ruby>うように、困難な状況で苦しいながらにどりょくすること。",
+    "en": "Enduring any hardship."
+  },
+  {
+    "idiom": "暗中模索",
+    "furigana": "あんちゅうもさく",
+    "jp": "暗闇でものを探すかのような、先の分からない状態の中でも<ruby>試行錯誤<rt>しこうさくご</rt></ruby>すること。",
+    "en": "Pushing through uncertainty."
+  },
+  {
+    "idiom": "意気投合",
+    "furigana": "いきとうごう",
+    "jp": "複数の人の気持ちや意見が<ruby>一致<rt>いっち</rt></ruby>して、気持ちが一つになること。",
+    "en": "United in feeling."
+  },
+  {
+    "idiom": "異口同音",
+    "furigana": "いくどうおん",
+    "jp": "大勢の人がそれぞれ同じ意見を言うことあるいは、大勢の人が言い方は違えど同じ意味の事を言うこと。",
+    "en": "Same meaning, different words."
+  },
+  {
+    "idiom": "以心伝心",
+    "furigana": "いしんでんしん",
+    "jp": "お互いに言葉に出して言わなくても気持ちが通じること。",
+    "en": "Conveying feelings without the need for words."
+  },
+  {
+    "idiom": "一意専心",
+    "furigana": "いちいせんしん",
+    "jp": "一つのことに深く取り組み、専門性を高めたり、専念すること。",
+    "en": "Complete devotion to a single pursuit. 'All in'."
   }
 ]

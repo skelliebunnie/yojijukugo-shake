@@ -8,13 +8,21 @@
   </head>
   <body>
     <header>
-      <h1>ランダム四字熟語</h1>
-      <button id="permissionBtn" class="btn hidden">シェーク</button>
-      <p id="status" class="status">Checking device compatibility...</p>
+      <h1 class="mobile">ランダム<br/>四字熟語</h1>
+      <h1 class="desktop">ランダム四字熟語</h1>
     </header>
     <main>
       <div id="results"></div>
     </main>
+    
+    <aside>
+      <p id="status" class="status">Checking device compatibility...</p>
+      <button id="permissionBtn" class="btn hidden">シェーク</button>
+    </aside>
+    
+    <footer>
+      このサイト&copy;<span id="currentYear"></span> SkellieBunnie | 四字熟語は<a href="http://dorilu.net/itiran4zyukugo.htm" target="_blank">Dorilu.net</a>のものです。
+    </footer>
 
     <template id="cardtemplate">
       <div class="card">
