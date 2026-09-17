@@ -17,6 +17,7 @@ async function getData() {
     }
     
     options = await response.json().then(data => { return data });
+    updateResults(0);
 
   } catch(error) {
     console.error(error.message);
@@ -46,10 +47,12 @@ function updateResults(opt) {
   if ("content" in document.createElement("template")) {
     const template = document.querySelector("#cardtemplate");
     const clone = document.importNode(template.content, true);
-    let jpyContainer = clone.querySelector(".jp");
+    let idiomContainer = clone.querySelector(".idiom");
+    let jpContainer = clone.querySelector(".jp");
     let enContainer = clone.querySelector(".en");
 
-    jpyContainer.innerHTML = `<ruby><rt>${selOpt.furigana}</rt>${selOpt.jp}</ruby>`;
+    idiomContainer.innerHTML = `<ruby><rt>${selOpt.furigana}</rt>${selOpt.idiom}</ruby>`;
+    jpContainer.innerHTML = selOpt.jp;
     enContainer.textContent = selOpt.en;
 
     results.textContent = "";

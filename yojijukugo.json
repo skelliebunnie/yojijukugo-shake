@@ -1,27 +1,38 @@
 [
   {
-    "jp": "起死回生",
+    "idiom": "起死回生",
     "furigana": "きしかいせい",
-    "en": "Coming back from the brink of death, recovering from a hopeless situation"
+    "jp": "死にそうなほどの不利な状態から、生き返ったと思えるほど、よい方向に立てなおすことができた状態。",
+    "en": "Coming back from the brink of death, recovering from a hopeless situation."
   },
   {
-    "jp": "奇想天外",
+    "idiom": "奇想天外",
     "furigana": "きそうてんがい",
-    "en": "bizarre, fantastic, incredible"
+    "jp": "実際の世の中には存在しないような、普通では思いつかないほどの奇抜な考えや思うこと。",
+    "en": "bizarre, fantastic, incredible. Bizarre thoughts/ideas so unconventional they wouldn't normally occurr to anyone that have no basis in the real world."
   },
   {
-    "jp": "本末転倒",
+    "idiom": "本末転倒",
     "furigana": "ほんまつてんとう",
-    "en": "Putting the cart before the horse, having one's priorities backwards"
+    "jp": "本当に大事なことと、どちらでもいい物事の<ruby>末端<rt>まったん</rt></ruby>のことをとり違えること。",
+    "en": "Putting the cart before the horse, having one's priorities backwards."
   },
   {
-    "jp": "切磋琢磨",
+    "idiom": "切磋琢磨",
     "furigana": "せっさたくま",
-    "en": "cultivating one's character by working hard"
+    "jp": "学問や技などをライバル同士が互いに磨き努力して<ruby>向上<rt>こうじょう</rt></ruby>していくこと。",
+    "en": "Cultivating one's character by working hard."
   },
   {
-    "jp": "有名無実",
+    "idiom": "有名無実",
     "furigana": "ゆうめいむじつ",
-    "en": "In name but not in truth/reality"
+    "jp": "名前だけ有名で中身はともなっていない状態。",
+    "en": "(Famous) in name but not in truth/reality."
+  },
+  {
+    "idiom": "",
+    "furigana": "",
+    "jp": "",
+    "en": ""
   }
 ]
